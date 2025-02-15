@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Brilday's!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cake" onclick="showConfettiAndPopup()">
+      <div class="candle">
+        <div class="flame"></div>
+      </div>
+      <div class="plate"></div>
+    </div>
+
+    <div id="popup" class="popup" style="display: none">
+      Happy Brilday! 🎉<br />
+      "Jika ada ingatan yang terus menghangatkan dirimu<br />
+      Jaga apinya, hadapi hari, teruslah kau begitu"<br /><br />
+      makasih udah hadir (lagi). ♡ <br />
+    </div>
+
+    <div
+      id="polaroid1"
+      class="polaroid"
+      style="top: 10%; left: 10%; animation-delay: 0s"
+    >
+      <img src="images/1.png" alt="Polaroid 1" />
+    </div>
+
+    <div
+      id="polaroid2"
+      class="polaroid"
+      style="top: 20%; left: 70%; animation-delay: 1s"
+    >
+      <img src="images/2.png" alt="Polaroid 2" />
+    </div>
+
+    <div
+      id="polaroid3"
+      class="polaroid"
+      style="top: 70%; left: 60%; animation-delay: 3s"
+    >
+      <img src="images/3.png" alt="Polaroid 3" />
+    </div>
+
+    <!-- Container untuk bunga -->
+    <div id="flower-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
