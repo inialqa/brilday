@@ -19,6 +19,7 @@ function showConfettiAndPopup() {
   document.getElementById("polaroid1").style.display = "flex";
   document.getElementById("polaroid2").style.display = "flex";
   document.getElementById("polaroid3").style.display = "flex";
+  document.getElementById("polaroid4").style.display = "flex";
 
   // Mulai perulangan animasi bunga
   generateFlowers();
