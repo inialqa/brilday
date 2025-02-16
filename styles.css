@@ -41,13 +41,13 @@ body {
   height: 40px;
   background-color: #ffeb3b;
   border-radius: 5px;
+  display: flex;
+  justify-content: center
 }
 
 .flame {
   position: absolute;
   top: -15px;
-  left: 50%;
-  transform: translateX(-50%);
   width: 10px;
   height: 15px;
   background: radial-gradient(circle, #ff4500, #ff8c00);
